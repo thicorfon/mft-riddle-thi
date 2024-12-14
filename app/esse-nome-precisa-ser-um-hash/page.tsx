@@ -1,6 +1,5 @@
 'use client'
 import Image from "next/image";
-import { ChangeEventHandler, useState } from "react"
 
 export default function Page() {
 
@@ -9,10 +8,10 @@ export default function Page() {
       <h1 className="text-4xl mb-4 font-bold">Vishe!</h1>
       <Image
         className="mb-4"
-        src="/hamburguergun.jpg"
-        alt="Hamburguer com uma arma"
-        width={520}
-        height={520}
+        src="/convite.png"
+        alt="Convite"
+        width={970}
+        height={1600}
       />
     </div>
   );
