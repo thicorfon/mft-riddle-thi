@@ -9,3 +9,11 @@ export async function answerLevelOne(answer: string) {
     return { valid: false }
   }
 }
+
+export async function answerLevelTwo(answer: string) {
+  if (answer.toLowerCase() === 'thicorfon') {
+    redirect(`/esse-tambem`)
+  } else {
+    return { valid: false }
+  }
+}

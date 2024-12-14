@@ -1,18 +1,17 @@
 'use client'
-import Image from "next/image";
+import Form from "../../components/form";
+import { answerLevelTwo } from "../server-actions";
 
 export default function Page() {
 
   return (
-    <div className="flex flex-col items-center justify-center p-8 border rounded-3xl">
-      <h1 className="text-4xl mb-4 font-bold">Vishe!</h1>
-      <Image
-        className="mb-4"
-        src="/convite.png"
-        alt="Convite"
-        width={970}
-        height={1600}
-      />
-    </div>
+    <Form
+      title="Nível 2: Que cara social"
+      image={{ src: "/socials.png", alt: "Redes sociais", width: 1920, height: 960 }}
+      question="Vou adicionar o toto numa rede social, qual o user dele mesmo?"
+      inputMaxLength={9}
+      hint="variação padrão"
+      onSubmitAction={answerLevelTwo}
+    />
   );
 }
