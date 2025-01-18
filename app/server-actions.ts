@@ -36,6 +36,14 @@ export async function answerLevelFour(answer: string) {
 
 export async function answerLevelFive(answer: string) {
   if (answer.toLowerCase() === 'bohemian_rhapsody') {
+    redirect(`/nivel-6`)
+  } else {
+    return { valid: false }
+  }
+}
+
+export async function answerLevelSix(answer: string) {
+  if (answer.toLowerCase() === 'sitio_da_bela') {
     redirect(`/esse-tambem`)
   } else {
     return { valid: false }
