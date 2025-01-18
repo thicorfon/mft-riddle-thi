@@ -12,6 +12,14 @@ export async function answerLevelOne(answer: string) {
 
 export async function answerLevelTwo(answer: string) {
   if (answer.toLowerCase() === 'thicorfon') {
+    redirect(`/o-hash-fica-pra-dps`)
+  } else {
+    return { valid: false }
+  }
+}
+
+export async function answerLevelThree(answer: string) {
+  if (answer.toLowerCase() === 'tia_vera') {
     redirect(`/esse-tambem`)
   } else {
     return { valid: false }
