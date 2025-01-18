@@ -1,13 +1,13 @@
 'use client'
-import FormAudio from "../../components/form-audio";
+import Form from "../../components/form";
 import { answerLevelFive } from "../server-actions";
 
 export default function Page() {
 
   return (
-    <FormAudio
+    <Form
       title="Nível 5: O Tutorial Acabou"
-      audio={{ src: "/arepo.mp3", alt: "magnifico", type:"audio/mpeg"}}
+      audio={{ src: "/arepo.mp3", alt: "magnifico"}}
       question="2018: Qual o primeiro filme que nós vimos juntos?"
       inputMaxLength={17}
       hint="nome_do_filme"

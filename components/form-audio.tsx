@@ -3,7 +3,7 @@ import { ChangeEventHandler, useState } from "react"
 
 interface FormProps {
   title: string;
-  audio: { src: string, alt: string, type:string};
+  audio: { src: string, alt: string, type:string, controls:string};
   question: string;
   inputMaxLength: number;
   hint: string;
@@ -37,6 +37,7 @@ export default function FormAudio({ onSubmitAction, audio, hint, title, question
       <audio
         {...audio}
       />
+
       <label htmlFor="question" className="text-xl mb-4">{question}</label>
       <div className="flex items-center gap-5">
         <input
