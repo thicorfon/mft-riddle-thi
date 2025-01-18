@@ -1,5 +1,4 @@
 'use client'
-import Audio from "next/Audio";
 import { ChangeEventHandler, useState } from "react"
 
 interface FormProps {
@@ -35,7 +34,7 @@ export default function FormAudio({ onSubmitAction, audio, hint, title, question
   return (
     <div className="flex flex-col items-center justify-center p-8 border rounded-3xl bg-card">
       <h1 className="text-4xl mb-4 font-bold">{title}</h1>
-      <Audio
+      <audio
         {...audio}
       />
       <label htmlFor="question" className="text-xl mb-4">{question}</label>
