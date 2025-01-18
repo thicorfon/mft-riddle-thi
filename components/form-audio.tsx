@@ -36,7 +36,6 @@ export default function FormAudio({ onSubmitAction, audio, hint, title, question
     <div className="flex flex-col items-center justify-center p-8 border rounded-3xl bg-card">
       <h1 className="text-4xl mb-4 font-bold">{title}</h1>
       <Audio
-        className="mb-4"
         {...audio}
       />
       <label htmlFor="question" className="text-xl mb-4">{question}</label>
