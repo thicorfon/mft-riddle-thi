@@ -8,7 +8,7 @@ export default function Page() {
       <h1 className="text-4xl mb-4 font-bold">Parabéns!</h1>
       <Image
         className="mb-4"
-        src="/convite.png"
+        src="/151.png"
         alt="Convite"
         width={970}
         height={1600}
