@@ -20,6 +20,14 @@ export async function answerLevelTwo(answer: string) {
 
 export async function answerLevelThree(answer: string) {
   if (answer.toLowerCase() === 'tia_vera') {
+    redirect(`/nivel-quatro`)
+  } else {
+    return { valid: false }
+  }
+}
+
+export async function answerLevelFour(answer: string) {
+  if (answer.toLowerCase() === 'romenia') {
     redirect(`/esse-tambem`)
   } else {
     return { valid: false }
