@@ -3,7 +3,7 @@ import { ChangeEventHandler, useState } from "react"
 
 interface FormProps {
   title: string;
-  audio: { src: string, alt: string};
+  audio: { src: string, alt: string, type:string};
   question: string;
   inputMaxLength: number;
   hint: string;
