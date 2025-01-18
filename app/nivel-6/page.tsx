@@ -8,7 +8,7 @@ export default function Page() {
     <Form
       title="Nível 6: Aposto que vocês não conseguem decodificar essa..."
       image={{ src: "/streisand.jpg", alt: "chacara", width: 1920, height: 960}}
-      question="2019: Primeiro Casamento"
+      question="Primeiro Casamento"
       inputMaxLength={14}
       hint="lugar_da_pessoa"
       onSubmitAction={answerLevelSix}

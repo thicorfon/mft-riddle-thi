@@ -44,6 +44,14 @@ export async function answerLevelFive(answer: string) {
 
 export async function answerLevelSix(answer: string) {
   if (answer.toLowerCase() === 'sitio_da_bella') {
+    redirect(`/nivel-final`)
+  } else {
+    return { valid: false }
+  }
+}
+
+export async function answerLevelFinal(answer: string) {
+  if (answer.toLowerCase() === 'valle_de_la_luna') {
     redirect(`/esse-tambem`)
   } else {
     return { valid: false }

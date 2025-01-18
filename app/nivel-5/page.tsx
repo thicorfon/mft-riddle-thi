@@ -8,7 +8,7 @@ export default function Page() {
     <Form
       title="Nível 5: O Tutorial Acabou"
       audio={{ src: "/arepo.mp3", alt: "magnifico"}}
-      question="2018: Qual o primeiro filme que nós vimos juntos?"
+      question="Qual o primeiro filme que nós vimos juntos?"
       inputMaxLength={17}
       hint="nome_do_filme"
       onSubmitAction={answerLevelFive}
