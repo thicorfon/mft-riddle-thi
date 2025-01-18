@@ -43,7 +43,7 @@ export async function answerLevelFive(answer: string) {
 }
 
 export async function answerLevelSix(answer: string) {
-  if (answer.toLowerCase() === 'sitio_da_bela') {
+  if (answer.toLowerCase() === 'sitio_da_bella') {
     redirect(`/esse-tambem`)
   } else {
     return { valid: false }
