@@ -28,6 +28,14 @@ export async function answerLevelThree(answer: string) {
 
 export async function answerLevelFour(answer: string) {
   if (answer.toLowerCase() === 'romenia') {
+    redirect(`/nivel-5`)
+  } else {
+    return { valid: false }
+  }
+}
+
+export async function answerLevelFive(answer: string) {
+  if (answer.toLowerCase() === 'bohemian_rhapsody') {
     redirect(`/esse-tambem`)
   } else {
     return { valid: false }
