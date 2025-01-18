@@ -8,7 +8,7 @@ export default function Page() {
     <Form
       title="Nível 4 (Maria Fernanda): Viajante"
       image={{ src: "/latim.png", alt: "nem parece", width: 1920, height: 960}}
-      question="MF já visitou 16 países. Qual está faltando?"
+      question="MF já visitou 17 países. Qual está faltando?"
       inputMaxLength={7}
       hint="pais"
       onSubmitAction={answerLevelFour}
