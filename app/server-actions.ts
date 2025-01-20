@@ -12,7 +12,7 @@ export async function answerLevelOne(answer: string) {
 
 export async function answerLevelTwo(answer: string) {
   if (answer.toLowerCase() === 'thicorfon') {
-    redirect(`/o-hash-fica-pra-dps`)
+    redirect(`/node`)
   } else {
     return { valid: false }
   }
