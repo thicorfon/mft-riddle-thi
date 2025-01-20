@@ -60,7 +60,7 @@ export async function answerLevelSeven(answer: string) {
 
 export async function answerLevelEight(answer: string) {
   if (answer.toLowerCase() === 'arctic_monkeys') {
-    redirect(`/nivel-final`)
+    redirect(`/watch`)
   } else {
     return { valid: false }
   }
