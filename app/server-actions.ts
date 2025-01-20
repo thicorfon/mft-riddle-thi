@@ -52,7 +52,7 @@ export async function answerLevelSix(answer: string) {
 
 export async function answerLevelSeven(answer: string) {
   if (answer.toLowerCase() === 'sitio_da_bella') {
-    redirect(`/nivel-8`)
+    redirect(`/redeem`)
   } else {
     return { valid: false }
   }
