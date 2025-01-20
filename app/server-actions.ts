@@ -44,7 +44,7 @@ export async function answerLevelFive(answer: string) {
 
 export async function answerLevelSix(answer: string) {
   if (answer.toLowerCase() === 'jundiai') {
-    redirect(`/nivel-7`)
+    redirect(`/connection`)
   } else {
     return { valid: false }
   }
