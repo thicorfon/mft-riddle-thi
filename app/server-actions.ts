@@ -43,7 +43,7 @@ export async function answerLevelFive(answer: string) {
 }
 
 export async function answerLevelSix(answer: string) {
-  if (answer.toLowerCase() === 'sitio_da_bella') {
+  if (answer.toLowerCase() === 'jundiai') {
     redirect(`/nivel-7`)
   } else {
     return { valid: false }
@@ -51,6 +51,14 @@ export async function answerLevelSix(answer: string) {
 }
 
 export async function answerLevelSeven(answer: string) {
+  if (answer.toLowerCase() === 'sitio_da_bella') {
+    redirect(`/nivel-8`)
+  } else {
+    return { valid: false }
+  }
+}
+
+export async function answerLevelEight(answer: string) {
   if (answer.toLowerCase() === 'arctic_monkeys') {
     redirect(`/nivel-final`)
   } else {

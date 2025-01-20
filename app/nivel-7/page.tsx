@@ -6,12 +6,12 @@ export default function Page() {
 
   return (
     <Form
-      title="Nível 7: Nossa miga, você viu esse stories?!?!?!?!"
-      image={{ src: "/anchieta-imigrantes.jpeg", alt: "reveillon_2122", width: 520, height: 520 }}
-      question="Três padrinhos/madrinhas no carro"
+      title="Nível 7: Aposto que vocês não conseguem decodificar essa..."
+      image={{ src: "/streisand.jpg", alt: "chacara", width: 520, height: 520 }}
+      question="Primeiro Casamento"
       inputMaxLength={14}
-      hint="nome_da_banda"
-      onSubmitAction={answerLevelSeven}
+      hint="lugar_da_pessoa"
+      onSubmitAction={answerLevelSix}
     />
   );
 }
