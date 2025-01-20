@@ -28,7 +28,7 @@ export async function answerLevelThree(answer: string) {
 
 export async function answerLevelFour(answer: string) {
   if (answer.toLowerCase() === 'romenia') {
-    redirect(`/nivel-5`)
+    redirect(`/blade`)
   } else {
     return { valid: false }
   }
