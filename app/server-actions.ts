@@ -36,7 +36,7 @@ export async function answerLevelFour(answer: string) {
 
 export async function answerLevelFive(answer: string) {
   if (answer.toLowerCase() === 'bohemian_rhapsody') {
-    redirect(`/nivel-6`)
+    redirect(`/echo`)
   } else {
     return { valid: false }
   }
