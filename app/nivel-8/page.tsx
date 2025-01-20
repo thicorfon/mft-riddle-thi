@@ -11,7 +11,7 @@ export default function Page() {
       question="Três padrinhos/madrinhas no carro"
       inputMaxLength={14}
       hint="nome_da_banda"
-      onSubmitAction={answerLevelSeven}
+      onSubmitAction={answerLevelEight}
     />
   );
 }

@@ -11,7 +11,7 @@ export default function Page() {
       question="Primeiro Casamento"
       inputMaxLength={14}
       hint="lugar_da_pessoa"
-      onSubmitAction={answerLevelSix}
+      onSubmitAction={answerLevelSeven}
     />
   );
 }
