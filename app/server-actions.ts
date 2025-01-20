@@ -20,7 +20,7 @@ export async function answerLevelTwo(answer: string) {
 
 export async function answerLevelThree(answer: string) {
   if (answer.toLowerCase() === 'tia_vera') {
-    redirect(`/nivel-quatro`)
+    redirect(`/farewell`)
   } else {
     return { valid: false }
   }
