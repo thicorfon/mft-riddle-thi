@@ -68,7 +68,7 @@ export async function answerLevelEight(answer: string) {
 
 export async function answerLevelFinal(answer: string) {
   if (answer.toLowerCase() === 'valle_de_la_luna') {
-    redirect(`/esse-tambem`)
+    redirect(`/pray`)
   } else {
     return { valid: false }
   }
