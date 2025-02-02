@@ -58,11 +58,15 @@ export default function Form({ onSubmitAction, image, hint, title, question, inp
           className="border p-2 rounded-md"
           placeholder="Resposta"
           autoFocus
+          maxLength={inputMaxLength}
           value={inputValue}
           onChange={handleChange}
           onKeyDown={handleEnterPress}
         />
         <button className="bg-primary text-primary-foreground p-2 rounded-md" type="button" onClick={submit}>Enviar</button>
+      </div>
+      <div className="mt-2 text-sm text-primary">
+        Caracteres restantes: {inputMaxLength - inputValue.length}
       </div>
       <div className="mt-2 text-sm">
         Dica: {hint}
