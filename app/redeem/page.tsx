@@ -10,7 +10,7 @@ export default function Page() {
       image={{ src: "/anchieta-imigrantes.jpeg", alt: "reveillon_2122", width: 520, height: 520 }}
       question="Três padrinhos/madrinhas no carro"
       inputMaxLength={14}
-      hint="nome_da_banda"
+      hint="abafador_de_conversa"
       onSubmitAction={answerLevelEight}
     />
   );
